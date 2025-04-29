@@ -12,8 +12,9 @@ jobs:
 - job: SubmitAzureMLJob
   displayName: Submit AzureML Job
   timeoutInMinutes: 300
-  pool:
-    vmImage: ASHISHMSPC
+pool:
+  name: 'AshishPool'
+
   steps:
   - task: UsePythonVersion@0
     displayName: Use Python >=3.8
