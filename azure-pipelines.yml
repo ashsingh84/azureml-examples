@@ -4,7 +4,7 @@ trigger:
 - none
 
 variables:
-  service-connection: 'aml-connection' # replace with your service connection name
+  service-connection: 'azure-ml-connection' # replace with your service connection name
   resource-group: 'rg_sea_data' # replace with your resource group name
   workspace: 'ashishml' # replace with your workspace name
 
